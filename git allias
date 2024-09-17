@@ -1,0 +1,16 @@
+[alias]
+        co=checkout
+        s=status
+        cob=co -b
+        pod=pull origin develop
+        pom=pull origin main
+        ci=commit -m
+        po=push origin
+        cod=co develop
+        com=co main
+        b=branch
+        r=revert HEAD
+        r2=revert HEAD~2..HEAD
+        r3=revert HEAD~3..HEAD
+        r4=revert HEAD~4..HEAD
+        r5=revert HEAD~5..HEAD
