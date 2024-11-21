@@ -13,4 +13,7 @@ ned to ```source ~/.zshrc``` (or ```source ~/.bash_profile```)
 
 - kill 8080 on mac
 
-  for killing 5 digit procceses on the port 8080 for mac 
+  for killing 5 digit procceses on the port 8080 for mac. update it as you whish
+
+- source
+  to be able to recognize new changes after system level changes
