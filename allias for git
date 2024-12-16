@@ -14,3 +14,5 @@
         r3=revert HEAD~3..HEAD
         r4=revert HEAD~4..HEAD
         r5=revert HEAD~5..HEAD
+        parent = "!git show-branch | grep '*' | grep -v \"$(git rev-parse --abbrev-ref HEAD)\" | head -n1 | sed 's/.*\\[\\(.*\\)\\].*/\\1/' | sed 's/[\\^~].*//' #"
+
